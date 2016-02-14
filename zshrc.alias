@@ -1,0 +1,6 @@
+alias kick="sudo systemctl"
+alias throw="wget -O - "
+alias yt="youtube-dl --no-mtime"
+alias esudo="sudo -E "
+alias pacupg="sudo pacman -Syu" #Synchronise repos and upgrade packages that are out of date
+alias pacre="sudo pacman -R" #Remove the specified package, retaining its configuration and required dependencies
