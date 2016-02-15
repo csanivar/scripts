@@ -4,3 +4,5 @@ alias yt="youtube-dl --no-mtime"
 alias esudo="sudo -E "
 alias pacupg="sudo pacman -Syu" #Synchronise repos and upgrade packages that are out of date
 alias pacre="sudo pacman -R" #Remove the specified package, retaining its configuration and required dependencies
+alias stlenb="sudo systemctl enable" #Enable a service to start after boot
+alias stlstat="sudo systemctl status" #View the status of a service
