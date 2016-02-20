@@ -1,3 +1,4 @@
+#Generic
 alias kick="sudo systemctl"
 alias throw="wget -O - "
 alias yt="youtube-dl --no-mtime"
@@ -6,3 +7,6 @@ alias pacupg="sudo pacman -Syu" #Synchronise repos and upgrade packages that are
 alias pacre="sudo pacman -R" #Remove the specified package, retaining its configuration and required dependencies
 alias stlenb="sudo systemctl enable" #Enable a service to start after boot
 alias stlstat="sudo systemctl status" #View the status of a service
+
+#Personal
+alias mnt5="sudo mount /dev/sda5 /mnt" #Mount the goddamn ubuntu parition for the symlinks to work
