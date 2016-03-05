@@ -9,6 +9,7 @@ alias stlenb="sudo systemctl enable" #Enable a service to start after boot
 alias stlstat="sudo systemctl status" #View the status of a service
 alias ytmp3="youtube-dl -x --audio-format mp3" #Download youtube video as mp3
 alias sublc="subl . &> /dev/null &" #Open current directory in sublime text
+alias sublf="subl $1 &> /dev/null &" #Open given file in sublime text and re-route its output
 
 #Personal
 alias mnt5="sudo mount /dev/sda5 /mnt" #Mount the goddamn ubuntu parition for the symlinks to work
